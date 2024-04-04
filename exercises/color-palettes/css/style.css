@@ -1,73 +1,99 @@
 #forest-rose {
     text-align: center;
+    font-size: 48px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #forest-rose-1 {
     background-color: #EBBAB9;
     color: white;
     text-align: center;
     padding: 24px;
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #forest-rose-2 {
     background-color: #C9C5BA;
     color: white;
     text-align: center;
     padding: 24px;
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #forest-rose-3 {
     background-color: #97B1A6;
     color: white;
     text-align: center;
     padding: 24px;
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #coastal-hues {
     text-align: center;
     margin-top: 60px;
+    font-size: 60px;
+    font-family: cursive;
 }
 #coastal-hues-1 {
     background-color: #437C90;
     color: white;
     text-align: center;
     padding: 24px;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
 }
 #coastal-hues-2 {
     background-color: #255957;
     color: white;
     text-align: center;
     padding: 24px;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
 }
 #coastal-hues-3 {
     background-color: #EEEBD3;
     color: darkslategrey;
     text-align: center;
     padding: 24px;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
 }
 
 #beach-day {
     text-align: center;
     margin-top: 60px;
+    font-size: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #beach-day-1 {
     background-color: #0FA3B1;
     color: white;
     text-align: center;
     padding: 24px;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #beach-day-2 {
     background-color: #B5E2FA;
     color: white;
     text-align: center;
     padding: 24px;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #beach-day-3 {
     background-color: #F9F7F3;
     color: darkslategrey;
     text-align: center;
     padding: 24px;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #beach-day-4 {
     background-color: #EDDEA4;
     color: darkslategrey;
     text-align: center;
     padding: 24px;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 120px 730px 550px 1fr;
+    grid-template-areas: 
+        "header header header header header"
+        ". thumbnails image details .";
+}
+
+#header {
+    grid-area: header;
+}
+
+#thumbnails {
+    grid-area: thumbnails;
+}
+
+#product-image {
+    grid-area: image;
+}
+
+#product-info {
+    grid-area: details;
+}
+
+#header h1 {
+    text-align: center;
+    font-size: 48px;
+    border-bottom: 1px solid #CCCCCC;
+    margin: 0px 0px 48px;
+    padding: 24px;
+    font-weight: normal;
+}
+
+#mebay {
+    color: black;
+    text-decoration: none;
+}
+
+#m {
+    color: purple;
+}
+
+#e {
+    color: red;
+}
+
+#b {
+    color: blue;
+}
+
+#a {
+    color: rgb(231, 199, 17);
+}
+
+#y {
+    color: rgb(2, 200, 2);
+}
+
+#thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-right: 24px;
+}
+
+.selected img {
+    border: 3px solid black;
+    padding: 8px;
+}
+
+.thumbnail img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+#product-image {
+    margin-right: 36px;
+}
+
+.main-image {
+    background-color: #f6f6f6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 24px;
+}
+
+.main-image img {
+    width: 80%;
+}
+
+#product-info h2 {
+    margin: 0px;
+}
+
+#product-info .seller-info-container {
+    border: 1px solid #CCCCCC;
+    border-radius: 12px;
+    padding: 12px 18px;
+    margin: 24px 0px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    color: #666666;
+}
+
+#product-info .seller-info-container div {
+    margin: 4px 0px;
+}
+
+#product-info .seller-info-container a {
+    color: black;
+}
+
+#product-info img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#product-info .price {
+    font-size: 36px;
+    margin: 24px 0px;
+}
+
+#product-info .condition {
+    margin: 24px 0px;
+}
+
+#product-info .condition-label {
+    margin-bottom: 8px;
+}
+
+.buttons a {
+    display: block;
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 12px;
+    margin: 12px 0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.buttons a.blue {
+    background-color: #0053A0;
+    border-color: #0053A0;
+}
+
+.buttons a.lightblue {
+    background-color: #3498ca;
+    border-color: #3498ca;
+}
+
+.buttons a.white {
+    color: #3665f3;
+    border-color: #3665f3;
+}

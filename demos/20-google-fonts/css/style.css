@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    font-family: "Jacquard 12 Charted", system-ui;
+    font-size: 60px;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+}
